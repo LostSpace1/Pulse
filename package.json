@@ -1,0 +1,25 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LS",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulpC": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.1"
+  },
+  "dependencies": {
+    "gulp": "^5.0.0"
+  },
+  "type": "module"
+}
