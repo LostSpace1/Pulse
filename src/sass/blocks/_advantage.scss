@@ -1,0 +1,43 @@
+.advantage{
+    background-color: #F6F6F6;
+    min-height: 470px;
+    padding: 83px 0 70px 0;
+    &__header{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+        text-align: center;
+        color: #0d0d0d;
+        margin-bottom: 76px;
+    }
+    &__icons{
+        display: flex;
+        justify-content: space-between;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title{
+        margin: 47px 0 34px 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__subtitle{
+        width: 283px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        color: #0d0d0d;
+        span{
+            font-family: "MuseoModerno", sans-serif;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #f00;
+        }
+    }
+}

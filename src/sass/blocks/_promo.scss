@@ -1,5 +1,61 @@
 .promo{
+    box-sizing: content-box;
     min-height: 650px;
-    padding: 21px 0 93px 0;
+    padding: 21px 0 0 0;
     background: url(../../img/bg/bg.png) center ( center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 83px 0 0 0;
+    }
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    &__subheader {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 57px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        min-width: 424px;
+    }
+    &__icon {
+        max-width: 136px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 66px;
+        img {
+            display: block;
+            margin: 0 auto 16px;
+            max-width: 45px;
+            margin-bottom: 16px;
+        }
+    }
+    &__link {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: right;
+        color: #fff;
+    }
+    &__catalog{
+        text-decoration: underline;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: right;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
 }

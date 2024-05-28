@@ -1,0 +1,42 @@
+.form{
+    min-height: 680px;
+    background: url(../../img/bg/bg2.png) center (center/cover) no-repeat;
+    box-sizing: border-box;
+    padding: 115px 0 110px 0;
+    &__title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    &__subtitle{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        color: #fff;
+        margin-bottom: 42px;
+    }
+    input{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 50px;
+        border-radius: 3px;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 471%;
+        color: #4b4b4b;
+        padding-left: 20px;
+        font-family: "MuseoModerno", sans-serif;
+        margin-bottom: 15px;
+        &:focus{
+            
+        }
+        &:last-of-type{
+            margin-bottom: 20px;
+        }
+    }
+}
